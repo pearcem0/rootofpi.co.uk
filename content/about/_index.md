@@ -13,7 +13,7 @@ Michael, Mike for short. I live and work in Manchester, UK. Senior Engineering M
 
 #### Peak AI
 
-Empowering developers and data scientists to be more autonomous, self-sufficient, and effective by building great infrastructure and automation into the Peak platform - The Cloud-based AI System for the Enterprise.
+Empowering developers and data scientists to be more autonomous, self-sufficient, and effective by building great infrastructure and automation into the [Peak platform](https://peak.ai/platform/) - The Cloud-based AI System for the Enterprise.
 
 #### Certification
 
