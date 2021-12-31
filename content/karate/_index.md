@@ -11,3 +11,4 @@ Karate instructor, instructor assessor, coach, England squad member, former capt
 
 [Manchester University Karate](https://www.sport.manchester.ac.uk/sport-and-activity/sport-a-to-z/karate/)
 | [Shotokan Karate Academy](http://shotokankarateacademy.co.uk)
+| [Martial Arts CV](MichaelPearce_Martial-Arts-CV_2022.pdf)
