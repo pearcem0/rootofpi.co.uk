@@ -1,5 +1,5 @@
 ---
-date: 2022-12-17
+date: 2022-12-31
 linktitle: rethinkinginfosec
 title: Rethinking Infosec
 ---
