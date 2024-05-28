@@ -36,7 +36,7 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[author]
+[param.author.name]
   name = "Michael Pearce"
 
 # https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -56,11 +56,11 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Basic information about Michael Pearce, a software engineer from the UK."
-  keywords = ["Michael Pearce", "DevOps", "AWS", "Cloud", "Engineering", "Peak AI"]
+  description = "Basic information about Michael Pearce, a security professional from the UK."
+  keywords = ["Michael Pearce", "Security", "AWS", "Cloud", "Engineering", "Peak AI"]
   images = [""]
 
-  homeSubtitle = "Basic information about Michael Pearce, a software engineer from the UK."
+  homeSubtitle = "Basic information about Michael Pearce, a security professional from the UK."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -118,15 +118,11 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Timeline"
-    weight    = 1
-    copyright = ''
-
-  [languages.fr]
-    subtitle  = "Timeline"
-    weight    = 2
-    copyright = '<a href="https://github.com/s4n7h0/hugo-theme-timeline/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a>'
-
+    [languages.en.params]
+      subtitle = "Timeline"
+      weight    = 1
+      copyright = '<a href="https://github.com/s4n7h0/hugo-theme-timeline/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a>'
+      
 [menu]
   [[menu.main]]
     identifier = "books"
@@ -160,7 +156,7 @@ disableHugoGeneratorInject = false
 
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
